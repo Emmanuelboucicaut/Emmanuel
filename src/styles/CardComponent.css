@@ -1,0 +1,62 @@
+.rounded-card {
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  background: linear-gradient(
+    to bottom right,
+    #2b2b2b,
+    #1a1a1a
+  ); /* Dark gradient background */
+  color: #ffffff; /* Default text color for dark background */
+}
+
+.rounded-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.2); /* Light shadow for contrast */
+}
+
+.rounded-card img {
+  width: 100%;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1); /* Subtle separator */
+}
+
+.rounded-card-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.rounded-card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff; /* Bright text for dark background */
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.rounded-card-description {
+  font-size: 1rem;
+  color: #cccccc; /* Softer text color for contrast */
+  line-height: 1.5;
+}
+
+.rounded-card:hover .rounded-card-title {
+  color: #ffcc00 !important; /* Highlight effect on hover */
+  transition: color 0.3s ease-in-out;
+}
+
+.rounded-card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.rounded-card-description {
+  font-size: 1rem;
+  color: #cccccc;
+  line-height: 1.5;
+}
