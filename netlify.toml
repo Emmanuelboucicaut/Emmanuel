@@ -1,0 +1,26 @@
+# Netlify configuration file
+[build]
+  # Command to build the project
+  command = "npm run build"
+  # Directory where the built files will be placed
+  publish = "dist"
+
+[build.environment]
+  # Specify the Node.js version to match your development environment
+  NODE_VERSION = "18.20.5"
+  # Optionally, set the environment variable to clear cache during builds
+  CLEAR_CACHE = "true"
+
+# Custom headers for better performance and security
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+# Optional redirects for your site
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
