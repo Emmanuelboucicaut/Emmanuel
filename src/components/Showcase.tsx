@@ -90,7 +90,7 @@ const Showcase = () => {
             <div>
               <img
                 className="img-fluid d-none d-sm-block rounded-circle"
-                src="../../src/img/emmanuel_2.jpg"
+                src=".\src\assets\images\EmmanuelBoucicaut.jpg"
                 alt="Emmanuel Boucicaut"
                 style={{ width: "550px", height: "250px" }}
               />
