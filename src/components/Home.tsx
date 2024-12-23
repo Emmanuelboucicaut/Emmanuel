@@ -21,22 +21,24 @@ const Home: React.FC = () => {
             {/* Card 1 */}
             <div className="col-md-4">
               <CardComponent
-                title="E-commerce App"
-                description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, delectus."
+                title="Nath Store Ecommerce"
+                description="NathStore it's ecommerce website build with AngularJS,  NodeJs, ExpressJs, MongoDB, Material UI, and Stripe."
                 iconClass="bi bi-laptop"
-                link="https://example.com"
-                linkText="Read More"
+                link="https://nathstore-dev.netlify.app/"
+                target="_blank"
+                linkText="Preview"
               />
             </div>
 
             {/* Card 2 */}
             <div className="col-md-4">
               <CardComponent
-                title="E-commerce App"
-                description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, delectus."
+                title="Weather App"
+                description=" Weather App it's a website that shows the weather of the city you search for, build with ReactJS, Redux, and CSS."
                 iconClass="bi bi-laptop"
-                link="https://example.com"
-                linkText="Read More"
+                link="https://emmanuel-weather.netlify.app"
+                target="_blank"
+                linkText="Preview"
               />
             </div>
 
@@ -47,6 +49,7 @@ const Home: React.FC = () => {
                 description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, delectus."
                 iconClass="bi bi-laptop"
                 link="https://example.com"
+                target="_blank"
                 linkText="Read More"
               />
             </div>

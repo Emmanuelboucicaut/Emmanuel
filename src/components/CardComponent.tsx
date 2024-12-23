@@ -7,13 +7,15 @@ interface CardComponentProps {
   iconClass: string; // Class for the icon (e.g., Bootstrap icon)
   link: string; // URL for the "Read More" button
   linkText: string; // Text for the link button
+  target?: string; // Target attribute for the link (e.g., "_blank" for new tab)
 }
 const CardComponent: React.FC<CardComponentProps> = ({
   title,
   description,
   iconClass,
   link,
-  linkText
+  linkText,
+  target
 }) => {
   return (
     <motion.div
@@ -32,7 +34,7 @@ const CardComponent: React.FC<CardComponentProps> = ({
           </div>
           <h3 className="card-title mb-3 rounded-card-title">{title}</h3>
           <p className="card-text">{description}</p>
-          <a href={link} className="btn btn-primary">
+          <a href={link} className="btn btn-primary" target={target}>
             {linkText}
           </a>
         </div>
