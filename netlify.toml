@@ -1,7 +1,7 @@
 # Netlify configuration file
 [build]
   # Command to build the project
-  command = "npm run build"
+  command = "rm -rf dist && npm run build"
   # Directory where the built files will be placed
   publish = "dist"
 
