@@ -22,7 +22,7 @@ const Home: React.FC = () => {
             <div className="col-md-4">
               <CardComponent
                 title="Nath Store Ecommerce"
-                description="NathStore it's ecommerce website build with AngularJS,  NodeJs, ExpressJs, MongoDB, Material UI, and Stripe."
+                description="NathStore it's ecommerce website build with AngularJS,  NodeJs, ExpressJs, MongoDB, Material UI, and Stripe. Deploy in Netlify with GitAction(CI/CD)."
                 iconClass="bi bi-laptop"
                 link="https://nathstore-dev.netlify.app/"
                 target="_blank"
@@ -34,7 +34,7 @@ const Home: React.FC = () => {
             <div className="col-md-4">
               <CardComponent
                 title="Weather App"
-                description=" Weather App it's a website that shows the weather of the city you search for, build with ReactJS, Redux, and CSS."
+                description=" Weather App it's a website that shows the weather of the city you search for, build with ReactJS, Redux, and CSS. Deploy in Netlify with GitAction(CI/CD)."
                 iconClass="bi bi-laptop"
                 link="https://emmanuel-weather.netlify.app"
                 target="_blank"
@@ -45,12 +45,12 @@ const Home: React.FC = () => {
             {/* Card 3 */}
             <div className="col-md-4">
               <CardComponent
-                title="E-commerce App"
-                description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, delectus."
+                title="Medical Platform"
+                description="This app help Medical clinic manage pent files, build with Angular Typescript, Material UI, Supabase and CSS. Deploy in Netlify with GitAction(CI/CD)."
                 iconClass="bi bi-laptop"
-                link="https://example.com"
+                link="https://polymedfront.netlify.app"
                 target="_blank"
-                linkText="Read More"
+                linkText="Preview"
               />
             </div>
             {/* Card 4 */}
